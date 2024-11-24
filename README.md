@@ -50,7 +50,7 @@
 
 ## Intro <a name="intro"></a>
 
-This boilerplate is made for creating chrome extensions using React and Typescript.
+This Proxy Switchy Omega is made for creating chrome extensions using React and Typescript.
 > The focus was on improving the build speed and development experience with Vite(Rollup) & Turborepo.
 
 ## Features <a name="features"></a>
@@ -209,7 +209,7 @@ Also, suggest new features or share any challenges you've faced while developing
 
 ## Contributors <a name="contributors"></a>
 
-This Boilerplate is made possible thanks to all of its contributors.
+This Proxy Switchy Omega is made possible thanks to all of its contributors.
 
 <a href="https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite/graphs/contributors">
   <img width="500px" src="https://contrib.rocks/image?repo=Jonghakseo/chrome-extension-boilerplate-react-vite" alt="All Contributors"/>
@@ -227,4 +227,9 @@ This Boilerplate is made possible thanks to all of its contributors.
 Made by [Jonghakseo](https://jonghakseo.github.io/)
 
 ## Source Git
-- [chrome-extensions-samples](https://github.com/GoogleChrome/chrome-extensions-samples)
+- [**chrome-extensions-samples**](https://github.com/GoogleChrome/chrome-extensions-samples)
+- [**ssh-gpg-smartcard-config**](https://github.com/lfit/ssh-gpg-smartcard-config)
+- [**Tusk**](https://github.com/subdavis/Tusk)
+- [**obsidian-clipper**](https://github.com/obsidianmd/obsidian-clipper)
+- [**Save4Me**](https://github.com/rafaelandrade/save4me)
+- [**Vitamin**](https://github.com/wtchnm/Vitamin)

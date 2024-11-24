@@ -1,11 +1,11 @@
 {
-  "name": "chrome-extension-boilerplate-react-vite",
+  "name": "proxy-switchy-omega",
   "version": "0.3.3",
-  "description": "chrome extension boilerplate",
+  "description": "Manage and switch between multiple proxies quickly & easily.",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jonghakseo/chrome-extension-boilerplate-react-vite.git"
+    "url": "https://github.com/eldorplus/proxy-switchy-omega.git"
   },
   "type": "module",
   "scripts": {
@@ -22,6 +22,7 @@
     "dev:firefox": "turbo ready && cross-env __DEV__=true __FIREFOX__=true turbo watch dev --concurrency 20",
     "e2e": "pnpm build && pnpm zip && turbo e2e",
     "e2e:firefox": "pnpm build:firefox && pnpm zip:firefox && cross-env __FIREFOX__=true turbo e2e",
+    "unit": "turbo unit",
     "type-check": "turbo type-check",
     "lint": "turbo lint --continue -- --fix --cache --cache-location node_modules/.cache/.eslintcache",
     "lint:fix": "turbo lint:fix --continue -- --fix --cache --cache-location node_modules/.cache/.eslintcache",

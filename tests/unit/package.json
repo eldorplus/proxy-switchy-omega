@@ -1,0 +1,20 @@
+{
+  "name": "@extension/unit",
+  "version": "0.3.3",
+  "description": "Ci tests configuration Proxy Switchy Omega",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "unit": "vitest",
+    "coverage": "vitest run --coverage.enabled --coverage.all --coverage.reporter='text-summary' --coverage.reporter='lcov'",
+    "clean:node_modules": "pnpx rimraf node_modules",
+    "clean:turbo": "pnpx rimraf .turbo",
+    "clean": "pnpm clean:turbo && pnpm clean:node_modules"
+  },
+  "devDependencies": {
+    "@extension/tsconfig": "workspace:*",
+    "@extension/pac": "workspace:*",
+    "vitest": "^2.1.5",
+    "tsx": "^4.19.1"
+  }
+}
