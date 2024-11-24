@@ -225,3 +225,6 @@ This Boilerplate is made possible thanks to all of its contributors.
 ---
 
 Made by [Jonghakseo](https://jonghakseo.github.io/)
+
+## Source Git
+- [chrome-extensions-samples](https://github.com/GoogleChrome/chrome-extensions-samples)

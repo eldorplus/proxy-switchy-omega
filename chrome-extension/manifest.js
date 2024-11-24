@@ -28,7 +28,18 @@ const manifest = deepmerge(
     version: packageJson.version,
     description: '__MSG_extensionDescription__',
     host_permissions: ['<all_urls>'],
-    permissions: ['storage', 'scripting', 'tabs', 'notifications'],
+    permissions: [
+      'alarms',
+      'contextMenus',
+      'notifications',
+      'proxy',
+      'storage',
+      'scripting',
+      'tabs',
+      'webRequest',
+      'declarativeNetRequest',
+      'webRequestAuthProvider',
+    ],
     options_page: 'options/index.html',
     background: {
       service_worker: 'background.iife.js',
@@ -65,6 +76,17 @@ const manifest = deepmerge(
         matches: ['*://*/*'],
       },
     ],
+    commands: {
+      _execute_action: {
+        suggested_key: {
+          default: 'Alt+Shift+O',
+          windows: 'Alt+Shift+O',
+          mac: 'Alt+Shift+O',
+          chromeos: 'Alt+Shift+O',
+          linux: 'Alt+Shift+O',
+        },
+      },
+    },
   },
   !isFirefox && sidePanelConfig,
 );
