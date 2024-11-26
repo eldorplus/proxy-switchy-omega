@@ -16,6 +16,6 @@
     "@extension/pac": "workspace:*",
     "unplugin-auto-import": "^0.18.5",
     "vitest": "^2.1.5",
-    "tsx": "^4.19.1"
+    "tsx": "^4.19.2"
   }
 }
