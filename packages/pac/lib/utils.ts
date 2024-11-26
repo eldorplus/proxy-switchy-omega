@@ -1,5 +1,7 @@
+//import type { IOptions } from './options';
 import { getDomain } from 'tldts';
 
+/**
 export const Revision = {
   fromTime: (time?: string): string => {
     ntime = time ? new Date(time) : new Date();
@@ -59,7 +61,13 @@ export class AttachedCache {
     obj[this.prop] = value;
   }
 }
+**/
 
+/**
+ *
+ * @param domain
+ * @return boolean
+ */
 export const isIp = (domain: string): boolean => {
   if (domain.indexOf(':') > 0) return true; // IPv6
   const lastCharCode = domain.charCodeAt(domain.length - 1);
@@ -67,6 +75,11 @@ export const isIp = (domain: string): boolean => {
   return false;
 };
 
+/**
+ *
+ * @param domain
+ * @return string
+ */
 export const getBaseDomain = (domain: string): string => {
   if (isIp(domain)) {
     return domain;
