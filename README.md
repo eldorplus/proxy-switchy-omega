@@ -228,3 +228,6 @@ Made by [Jonghakseo](https://jonghakseo.github.io/)
 
 ## Source Git
 - [chrome-extensions-samples](https://github.com/GoogleChrome/chrome-extensions-samples)
+- [simple-chrome-extension-esbuild](https://github.com/mattburrell/simple-chrome-extension-esbuild)
+- [browser-extension-react-typescript-starter](https://github.com/sinanbekar/browser-extension-react-typescript-starter)
+- [react-typescript-chrome-extension-template](https://github.com/rickwillcox/react-typescript-chrome-extension-template)
